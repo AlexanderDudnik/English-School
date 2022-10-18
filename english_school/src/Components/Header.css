@@ -1,0 +1,13 @@
+.navbar_menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mr-auto.Link {
+    color: white;
+}
+
+.header_form {
+    display: flex;
+    justify-content: right;
+}

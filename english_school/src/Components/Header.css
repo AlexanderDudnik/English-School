@@ -11,3 +11,15 @@
     display: flex;
     justify-content: right;
 }
+
+.link_header {
+    color:white; 
+}
+
+.link_header:hover {
+    color: #efb328;
+}
+
+.href:active {
+    color:#efb328;;
+}

@@ -1,10 +1,10 @@
 import React from "react";
+import CarouselBox from "../Components/CarouselBox";
+
 
 function Home() {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+      <CarouselBox/>
   );
 }
 

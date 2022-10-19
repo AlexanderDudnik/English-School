@@ -1,6 +1,5 @@
-import React, {Component} from "react";
 import { FormControl, Nav, Navbar, Container, Button, Form } from "react-bootstrap";
-import logo from "./img/logo.png"
+import logo from "../img/logo.png"
 import"./Header.css"
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom"
 
@@ -13,7 +12,7 @@ import Contacts from '../Pages/Contacts'
 function Header() {
     return(
         <>
-            <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
+            <Navbar fixed="top" collapseOnSelect expand="md" bg="dark" variant="dark">
                 <Container>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                     <Navbar.Collapse id="responsive-navbar-nav" className="navbar_menu">
@@ -27,11 +26,11 @@ function Header() {
                             />
                         </Navbar.Brand>
                         <Nav className="mr-auto">
-                            <Nav.Link href="/">Home</Nav.Link>
-                            <Nav.Link href="/courses">Courses</Nav.Link>
-                            <Nav.Link href="/blog">Blog</Nav.Link>
-                            <Nav.Link href="/About">About us</Nav.Link>
-                            <Nav.Link href="/contacts">Contacts</Nav.Link>
+                            <Nav.Link className="link_header" href="/">Home</Nav.Link>
+                            <Nav.Link className="link_header" href="/courses">Courses</Nav.Link>
+                            <Nav.Link className="link_header" href="/blog">Blog</Nav.Link>
+                            <Nav.Link className="link_header" href="/About">About us</Nav.Link>
+                            <Nav.Link className="link_header" href="/contacts">Contacts</Nav.Link>
                         </Nav>
                         <Form className="header_form">
                             <FormControl

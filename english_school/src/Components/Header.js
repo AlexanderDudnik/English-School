@@ -12,7 +12,7 @@ import Contacts from '../Pages/Contacts'
 function Header() {
     return(
         <>
-            <Navbar fixed="top" collapseOnSelect expand="md" bg="dark" variant="dark">
+            <Navbar  collapseOnSelect expand="md" bg="dark" variant="dark">
                 <Container>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                     <Navbar.Collapse id="responsive-navbar-nav" className="navbar_menu">

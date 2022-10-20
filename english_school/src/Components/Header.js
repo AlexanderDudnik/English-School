@@ -1,7 +1,7 @@
 import { FormControl, Nav, Navbar, Container, Button, Form } from "react-bootstrap";
 import logo from "../img/logo.png"
-import"./Header.css"
-import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom"
+import "./Header.css"
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"
 
 import Home from '../Pages/Home'
 import Courses from '../Pages/Courses'
@@ -10,19 +10,19 @@ import About from '../Pages/About'
 import Contacts from '../Pages/Contacts'
 
 function Header() {
-    return(
+    return (
         <>
-            <Navbar  collapseOnSelect expand="md" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" className="navbar_menu">
                         <Navbar.Brand href="/">
-                            <img 
-                            src={logo} 
-                            height="37"
-                            width="157"
-                            className="d-inline-block align-top"
-                            alt="Logo"
+                            <img
+                                src={logo}
+                                height="37"
+                                width="157"
+                                className="d-inline-block align-top"
+                                alt="Logo"
                             />
                         </Navbar.Brand>
                         <Nav className="mr-auto">
@@ -46,11 +46,11 @@ function Header() {
 
             <Router>
                 <Routes>
-                    <Route exact path="/" element={<Home/>}/>
-                    <Route exact path="/courses" element={<Courses/>}/>
-                    <Route exact path="/blog" element={<Blog/>}/>
-                    <Route exact path="/About" element={<About/>}/>
-                    <Route exact path="/contacts" element={<Contacts/>}/>
+                    <Route exact path="/" element={<Home />} />
+                    <Route exact path="/courses" element={<Courses />} />
+                    <Route exact path="/blog" element={<Blog />} />
+                    <Route exact path="/About" element={<About />} />
+                    <Route exact path="/contacts" element={<Contacts />} />
                 </Routes>
             </Router>
         </>

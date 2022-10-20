@@ -3,10 +3,6 @@
     justify-content: space-between;
 }
 
-.mr-auto.Link {
-    color: white;
-}
-
 .header_form {
     display: flex;
     justify-content: right;
@@ -14,6 +10,7 @@
 
 .link_header {
     color:white; 
+    padding: 0 20px;
 }
 
 .link_header:hover {

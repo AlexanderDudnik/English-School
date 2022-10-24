@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Row, Media } from "react-bootstrap";
+import { Col, Container, Row, Card } from "react-bootstrap";
 import Blog from "../img/Blog.jpg"
 
 function Courses() {
@@ -8,17 +8,19 @@ function Courses() {
       <Container>
         <Row>
           <Col md="9">
-            <Media>
+            <Card className="mg-5 ">
               <img 
+              width={150}
+              height={150}
               src={Blog} 
               alt="" 
               className="mg-3"
               />
-              <Media.Body>
+              <Card.Body>
                 <h5>Blog post</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ullam? Incidunt labore dolore quo, eaque quidem quibusdam assumenda aliquam pariatur voluptate optio quaerat esse distinctio, cum ducimus earum? Facilis, necessitatibus.</p>
-              </Media.Body>
-            </Media>
+              </Card.Body>
+            </Card>
           </Col>
         </Row>
       </Container>

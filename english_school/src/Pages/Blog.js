@@ -20,8 +20,13 @@ function Blog() {
             </Col>
             <Col sm={9}>
               <Tab.Content>
-                <Tab.Pane eventKey="first">
-                  <img src="https://eduma.thimpress.com/demo-main/wp-content/uploads/sites/95/2015/12/courses-5.jpg" alt="photo"/>
+                <Tab.Pane eventKey="first" class="w-70">
+                  <img
+                    width={830}
+                    height={500}
+                    src="https://eduma.thimpress.com/demo-main/wp-content/uploads/sites/95/2015/12/courses-5.jpg"
+                    alt="photo"
+                  />
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo maiores dolorum eos id! Sunt, amet consectetur! Eum est nostrum quam voluptatum sit eaque, dicta harum aperiam voluptas distinctio repellendus nulla!</p>
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">

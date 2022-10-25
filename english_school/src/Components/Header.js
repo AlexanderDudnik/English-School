@@ -29,7 +29,7 @@ function Header() {
                             <Nav.Link className="link_header" href="/">Home</Nav.Link>
                             <Nav.Link className="link_header" href="/courses">Courses</Nav.Link>
                             <Nav.Link className="link_header" href="/blog">Blog</Nav.Link>
-                            <Nav.Link className="link_header" href="/About">About us</Nav.Link>
+                            <Nav.Link className="link_header" href="/about">About us</Nav.Link>
                             <Nav.Link className="link_header" href="/contacts">Contacts</Nav.Link>
                         </Nav>
                         <Form className="header_form">
